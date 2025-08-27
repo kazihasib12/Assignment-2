@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+    box-sizing: border-box;
+}
+.container {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #24252A;
+    padding: 0px 10%;
+    height: 5%;
+    width: 100%;
+}
+a, li, button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.search {
+    width: 15%;
+    height: 50%;
+    padding: 17px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu li a{
+    transition: all 0.2s ease 0s;
+}
+.menu li a:hover{
+    color: rgba(248, 0, 95, 1);
+}
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(248, 0, 95, 1);
+}
+.mrq {
+    background-color: rgb(103, 137, 167);
+    height: 5%;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+}
+.left {
+    background-color: rgb(29, 53, 75);
+    height: 100%;
+    width: 20%;
+}
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    background-color: #03232b;
+    color: white;
+}
+.data{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.data img {
+    width: 200px;
+    border-radius: 50px;
+    border: 4px solid rgba(0, 136, 169, 1);
+}
+.data img:hover {
+    opacity: 80%;
+    border: 4px solid rgba(0, 136, 169, 0.8);
+}
+.data h1 {
+    font-size: 4.5em;
+}
+.data a {
+    padding: 20px 0px;
+}
+.social {
+    padding: 10px 0px;
+}
+.social p{
+    padding-bottom: 20px;
+}
+span{
+    color: rgba(248, 0, 95, 1);
+}
+.middle p{
+    text-align: center;
+}
+.mimg {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.mimg img {
+    border: 4px solid rgba(0, 177, 221, 1);
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+.mimg img:hover {
+    border: 4px solid rgba(0, 177, 221, 0.7);
+    opacity: 80%;
+}
+.right {
+    background-color: rgb(53, 82, 110);
+    height: 100%;
+    width: 20%;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #012f3a;
+    color: white;
+    height: 5%;
+    width: 100%;
+}
+.footer p {
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+.icon {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    padding-right: 10%;
+}
+.icon a {
+    font-size: 1.5rem;
+    color: rgba(0, 177, 221, 1);
+    margin: 0px 3px;
+}
+.icon a:hover {
+    color: rgba(248, 0, 95, 1);
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 400px;
+    padding: 25px;
+    border: 1px solid #0088a9;
+    border-radius: 20px;
+}
+.avatar{
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - 75px);
+}
+.loginpage h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(248, 0, 95, 1);
+}
+.loginpage p{
+    text-align: left;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.loginpage input{
+    padding: 10px 0px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form input[type="text"], input[type="password"]{
+    height: 25px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(248, 0, 95, 1);
+}
+.form input[type="text"]:hover, input[type="password"]:hover{
+    color: white;
+}
+.btn{
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    padding: 8px 0;
+    border-radius: 20px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(248, 0, 95, 1);
+    cursor: pointer;
+}
+.form a{
+    color: darkgray;
+    text-decoration: none;
+    line-height: 25px;
+    margin-left: 22%;
+}
+.form a:hover{
+    color: rgba(248, 0, 95, 1);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    border: 1px solid #0088a9;
+    border-radius: 20px;
+}
+.contact h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(248, 0, 95, 1);
+}
+.contact p{
+    text-align: left;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.contact input{
+    padding: 10px 0px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+#description {
+    padding: 10px 0px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(248, 0, 95, 1);
+    resize: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.service{
+    height: 400px;
+    width: 340px;
+    padding: 20px;
+    border: 1px solid  #0088a9;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(208, 232, 243, 0.2), rgba(208, 232, 243, 0.2));
+}
+.service input {
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color:  #0088a9;
+    color: white;
+}
+.service input:hover {
+    background-color: rgba(248, 0, 95, 1);
+}
+.heading {
+    margin-top: 20px;
+    text-align: center;
+}
+.sub_head {
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(194, 194, 194);
+}
+.opt{
+    width: 100%;
+}
+.opt p {
+    text-align: left;
+    padding: 3px 0px;
+}
+.opt p i {
+    color: rgb(41, 177, 0);
+}
